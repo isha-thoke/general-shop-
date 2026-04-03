@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>General Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>My General Shop</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Cart</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <input type="text" id="search-bar" placeholder="Search products...">
+
+    <section class="products">
+        <div class="product">
+            <img src="item1.jpg" alt="Item 1">
+            <h2>Item 1</h2>
+            <p>₹200</p>
+            <button onclick="addToCart('Item 1',200)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="item2.jpg" alt="Item 2">
+            <h2>Item 2</h2>
+            <p>₹350</p>
+            <button onclick="addToCart('Item 2',350)">Add to Cart</button>
+        </div>
+    </section>
+
+    <section class="cart">
+        <h2>Your Cart</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: ₹<span id="total">0</span></p>
+    </section>
+
+    <footer>
+        <p>© 2026 My General Shop</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
