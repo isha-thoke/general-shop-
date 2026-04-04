@@ -18,3 +18,11 @@ A simple e-commerce shop page built with HTML, CSS, and JavaScript.
 - Checkout form with validation
 - Product categories filter
 - Responsive design for mobile
+## How to Run
+1. Clone the repository
+2. Open `index.html` in your browser
+
+## Future Improvements
+- Checkout form with validation
+- Product categories filter
+- Responsive design for mobile
